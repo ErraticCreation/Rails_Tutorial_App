@@ -9,7 +9,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-group :development, :test do
+group :development do
   gem 'sqlite3', '~> 1.3', '>= 1.3.11'
   gem 'byebug', '~> 8.2', '>= 8.2.2'
   gem 'web-console', '~> 3.1', '>= 3.1.1'
@@ -19,6 +19,7 @@ end
 group :test do
   gem 'minitest-reporters', '~> 1.1', '>= 1.1.8'
   gem 'mini_backtrace', '~> 0.1.3'
+  gem 'guard', '~> 2.13'
   gem 'guard-minitest', '~> 2.4', '>= 2.4.4'
 end
 
