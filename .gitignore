@@ -21,3 +21,6 @@
 
 # Ignore Byebug History
 .byebug_history
+
+# Ignore RadRails Project File
+.project
