@@ -10,6 +10,10 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'will_paginate', '~> 3.1'
+gem 'bootstrap-will_paginate', '~> 0.0.10'
+
+gem 'faker', '~> 1.6', '>= 1.6.3'
 
 group :development do
   gem 'sqlite3', '~> 1.3', '>= 1.3.11'
