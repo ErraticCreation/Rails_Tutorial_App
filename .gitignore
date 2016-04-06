@@ -24,3 +24,6 @@
 
 # Ignore RadRails Project File
 .project
+
+# Ignore RubyMine files
+.idea
