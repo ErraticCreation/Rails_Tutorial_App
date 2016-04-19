@@ -25,5 +25,9 @@ module SampleApp
 
     # Allow web console to be used in test environment.
     # config.web_console.development_only = false
+
+    # Include the authenticity token in remote forms.
+    config.action_view.embed_authenticity_token_in_remote_forms = true
+
   end
 end
