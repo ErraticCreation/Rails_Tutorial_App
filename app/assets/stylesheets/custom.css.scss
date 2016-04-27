@@ -33,7 +33,10 @@ h2,
 h3,
 h4,
 h5,
-h6 { line-height: 1; }
+h6 {
+  font-family: 'Slabo 27px', serif;
+  line-height: 1;
+}
 
 h1 {
   font-size: 3em;
@@ -56,9 +59,16 @@ p {
   line-height: 1.7em;
 }
 
+span,
+p,
+a {
+  font-family: 'Droid Sans', sans-serif;
+}
+
 /* header */
 
 #logo {
+  font-family: 'Slabo 27px', serif;
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
